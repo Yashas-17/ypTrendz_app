@@ -1,0 +1,105 @@
+/* index.css */
+.checkout-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.checkout-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #171f46;
+  font-family: Lobster;
+}
+
+.order-summary {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.order-summary-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: #171f46;
+}
+
+.order-items-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.order-items-table th,
+.order-items-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.order-items-table th {
+  background-color: #f2f2f2;
+  color: #171f46;
+}
+
+.order-item {
+  background-color: #fff;
+}
+
+.order-item-name,
+.order-item-price,
+.order-item-quantity,
+.order-item-total {
+  text-align: center;
+}
+
+.total-bill {
+  text-align: right;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.bill-amount {
+  color: #d9534f;
+}
+
+.confirm-order-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.confirm-order-button:hover {
+  background-color: #4cae4c;
+}
+
+@media (max-width: 600px) {
+  .checkout-container {
+    padding: 10px;
+  }
+
+  .checkout-heading {
+    font-size: 1.5em;
+  }
+
+  .order-summary-heading {
+    font-size: 1.2em;
+  }
+
+  .total-bill {
+    font-size: 1.2em;
+  }
+
+  .confirm-order-button {
+    font-size: 1em;
+  }
+}
